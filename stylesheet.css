@@ -112,7 +112,7 @@ h2{
     backface-visibility: hidden;
     position: relative;
 }
-
+ 
 .project-tile:hover{
     font-size: 18px;
     width: 20%;
@@ -120,12 +120,16 @@ h2{
 }
 
 .project-tile:hover a{
-    opacity: 0.3;
+    opacity: 0.3 !important;
 }
 
 .project-tile:hover .project-tile-middle {
-  opacity: 1;
+  opacity: 1 !important;
 }
+
+/* .project-tile:hover .project-text {
+  opacity: 1 !important;
+} */
 
 #project-img{
     width: 150%;
