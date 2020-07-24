@@ -1,11 +1,16 @@
-// window.onscroll = function() {scrollFunction()};
+// function iconCredit() {
+//   var popup = document.getElementsById("togglesecond");
+//   popup.classList.toggle("show");
+// }
 
-// function scrollFunction() {
-//     }
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     document.getElementById('nav').style.height = 15vh;
-//     // document.getElementById("logo").style.fontSize = "25px";
-//   } else {
-//     document.getElementById('nav').style.height = 30vh;
-//     // document.getElementById("logo").style.fontSize = "35px";
-//   }
+element.addEventListener('click', iconCredit);
+
+function iconCredit() {
+  var popup = document.getElementById('togglesecond');
+    if (popup.style.display === 'block') {
+      popup.style.display = 'none';
+    } else {
+      popup.style.display = 'block';
+    }
+}
+
