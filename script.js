@@ -1,7 +1,13 @@
-// function iconCredit() {
-//   var popup = document.getElementsById("togglesecond");
-//   popup.classList.toggle("show");
+
+// element.addEventListener('hover', avatarZoom);
+
+// function avatarZoom(){
+//     var avatarHovered = document.getElementsByClassName('avatar');
+
 // }
+
+
+
 
 element.addEventListener('click', iconCredit);
 
